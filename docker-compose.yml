@@ -1,0 +1,23 @@
+
+version: '2'
+
+services:
+  magicspace:
+    container_name: magicspace
+    restart: always
+    image: nginx
+    volumes:
+      - ./public:/usr/share/nginx/html:ro
+    labels:
+      - traefik.http.routers.magicspace.rule=Host(`space.magicorp.fr`)
+      - traefik.http.routers.magicspace.middlewares=https-redirectscheme
+      - traefik.http.routers.magicspace-secure.rule=Host(`space.magicorp.fr`)
+      - traefik.http.routers.magicspace-secure.tls=true
+      - traefik.http.routers.magicspace-secure.tls.certresolver=sslresolver
+    networks:
+      - backend
+
+networks:
+  backend:
+    external:
+      name: backend

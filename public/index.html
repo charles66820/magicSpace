@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page de lancements spaciaux" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Lancements spatiaux</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+      }
+
+      #launches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+      .launch {
+        margin: 2rem;
+      }
+
+      .launch ul {
+        padding: 0;
+      }
+
+      .launch ul li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .launch li a {
+        margin-left: 0.5rem;
+        overflow-wrap: anywhere;
+        text-decoration: none;
+        color: #0366d6;
+      }
+
+      .launch li .flag {
+        margin: auto 0.5rem;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lancements spatiaux</h1>
+    <button id="toggleColorScheme">toggle</button>
+    <div id="launches"></div>
+    <script>
+      function toggleColorScheme(event) {
+        let cs = getComputedStyle(
+          document.querySelector(":root")
+        ).getPropertyValue("color-scheme");
+        switch (cs) {
+          case "light": // light => dark
+            document
+              .querySelector(":root")
+              .style.setProperty("color-scheme", "dark");
+            break;
+          case "dark": // dark => light
+            document
+              .querySelector(":root")
+              .style.setProperty("color-scheme", "light");
+            break;
+          default: // normal or other
+            if (window.matchMedia) {
+              if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                // dark => light
+                document
+                  .querySelector(":root")
+                  .style.setProperty("color-scheme", "light");
+              } else {
+                // light => dark
+                document
+                  .querySelector(":root")
+                  .style.setProperty("color-scheme", "dark");
+              }
+            } else {
+              // default (probably light) => dark
+              document
+                .querySelector(":root")
+                .style.setProperty("color-scheme", "dark");
+            }
+        }
+      }
+      document
+        .querySelector("#toggleColorScheme")
+        .addEventListener("click", toggleColorScheme);
+    </script>
+    <script>
+      const launchesUrl = "launches.json";
+      fetch(launchesUrl)
+        .then((response) => response.json())
+        .then((data) => {
+          const launchesContainer = document.querySelector("#launches");
+          data.forEach((launch) => {
+            const launchGroup = document.createElement("div");
+            launchGroup.classList.add("launch");
+
+            const launchGroupTitle = document.createElement("h2");
+            launchGroupTitle.textContent = launch.title;
+            launchGroup.appendChild(launchGroupTitle);
+
+            const launchDescription = document.createElement("pre");
+            launchDescription.textContent = launch.description;
+            launchGroup.appendChild(launchDescription);
+
+            const launchLinks = document.createElement("ul");
+            launch.links.forEach((link) => {
+              const launchLinkPar = document.createElement("li");
+
+              const launchTitle = document.createElement("span");
+              launchTitle.textContent = link.title;
+              launchLinkPar.appendChild(launchTitle);
+
+              const launchFlag = document.createElement("span");
+              launchFlag.classList.add("flag");
+              launchFlag.textContent = link.langFlag === "fr" ? "🇫🇷" : "🇬🇧";
+              launchLinkPar.appendChild(launchFlag);
+
+              launchLinkPar.appendChild(document.createTextNode(": "));
+
+              const launchLink = document.createElement("a");
+              launchLink.href = link.url;
+              launchLink.textContent = link.url;
+              launchLinkPar.appendChild(launchLink);
+
+              launchLinks.appendChild(launchLinkPar);
+            });
+            launchGroup.appendChild(launchLinks);
+
+            launchesContainer.appendChild(launchGroup);
+          });
+        })
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>
