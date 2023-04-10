@@ -51,11 +51,16 @@
         margin: auto 0.5rem;
         font-size: 1.2rem;
       }
+
+      #lastUpdate {
+        margin-top: 1rem;
+      }
     </style>
   </head>
   <body>
     <h1>Lancements spatiaux</h1>
     <button id="toggleColorScheme">toggle</button>
+    <div id="lastUpdate"></div>
     <div id="launches"></div>
     <script>
       function toggleColorScheme(event) {
@@ -94,6 +99,7 @@
             }
         }
       }
+
       document
         .querySelector("#toggleColorScheme")
         .addEventListener("click", toggleColorScheme);
@@ -101,8 +107,15 @@
     <script>
       const launchesUrl = "launches.json";
       fetch(launchesUrl)
-        .then((response) => response.json())
-        .then((data) => {
+        .then(async res => {
+          const lastModifiedHeader = res.headers.get("last-modified");
+          const lastModified = new Date(lastModifiedHeader).toLocaleDateString();
+
+          const lastUpdateElement = document.querySelector("#lastUpdate");
+          lastUpdateElement.textContent = "Last update : " + lastModified;
+
+          const data = await res.json();
+
           const launchesContainer = document.querySelector("#launches");
           data.forEach((launch) => {
             const launchGroup = document.createElement("div");
