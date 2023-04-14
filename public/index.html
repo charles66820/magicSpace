@@ -109,10 +109,10 @@
       fetch(launchesUrl)
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
-          const lastModified = new Date(lastModifiedHeader).toLocaleDateString();
-
+          const lastModifiedDateTime = new Date(lastModified);
           const lastUpdateElement = document.querySelector("#lastUpdate");
-          lastUpdateElement.textContent = "Last update : " + lastModified;
+          const lastModified = `Dernière modification : ${lastModifiedDateTime.toLocaleDateString()} ${lastModifiedDateTime.toLocaleTimeString()}`;
+          lastUpdateElement.textContent = lastModified;
 
           const data = await res.json();
 
