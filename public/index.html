@@ -109,7 +109,7 @@
       fetch(launchesUrl)
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
-          const lastModifiedDateTime = new Date(lastModified);
+          const lastModifiedDateTime = new Date(lastModifiedHeader);
           const lastUpdateElement = document.querySelector("#lastUpdate");
           const lastModified = `Dernière modification : ${lastModifiedDateTime.toLocaleDateString()} ${lastModifiedDateTime.toLocaleTimeString()}`;
           lastUpdateElement.textContent = lastModified;
