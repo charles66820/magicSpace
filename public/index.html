@@ -110,6 +110,16 @@
     </script>
     <script>
       const launchesUrl = "launches.json";
+      function getFlag(langFlag) {
+        switch (langFlag) {
+          case "fr":
+            return "🇫🇷";
+          case "be":
+            return "🇧🇪";
+          default:
+            return "🇬🇧";
+        }
+      }
       fetch(launchesUrl)
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
@@ -143,7 +153,7 @@
 
               const launchFlag = document.createElement("span");
               launchFlag.classList.add("flag");
-              launchFlag.textContent = link.langFlag === "fr" ? "🇫🇷" : "🇬🇧";
+              launchFlag.textContent = getFlag(link.langFlag);
               launchLinkPar.appendChild(launchFlag);
 
               launchLinkPar.appendChild(document.createTextNode(": "));
