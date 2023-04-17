@@ -120,7 +120,7 @@
             return "🇬🇧";
         }
       }
-      fetch(launchesUrl)
+      fetch(launchesUrl, {cache: "reload"})
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
           const lastModifiedDateTime = new Date(lastModifiedHeader);
