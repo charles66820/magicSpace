@@ -2,21 +2,31 @@
   {
     "title": "Starship",
     "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nLe décollage est prévue au plus tôt le 19 avril à 15h00 (heure de Paris).\nGrand chance d'explosion!!!!!",
+    "launchWindow": {
+      "begin": "",
+      "end": ""
+    },
     "links": [
       {
-        "title": "Le lien officiel de SpaceX",
+        "title": "Le direct officiel",
+        "form": "SpaceX",
+        "mainUrl": "https://www.youtube.com/@SpaceX",
         "langFlag": "en",
-        "url": "https://www.youtube.com/watch?v=L5QXreqOrTA"
+        "url": "https://www.youtube.com/watch?v=-1wcilQ58hI"
       },
       {
-        "title": "Le lien avec les explication techniques",
+        "title": "Le direct avec explications techniques",
+        "form": "Techniques Spatiales",
+        "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
         "langFlag": "fr",
-        "url": "https://www.youtube.com/watch?v=niNZFuWqLqU"
+        "url": "https://www.youtube.com/watch?v=Bvc4M7Z7TlQ"
       },
       {
-        "title": "Le lien commentais en français",
+        "title": "Le direct commentais en français",
+        "form": "Aurelien Sama",
+        "mainUrl": "https://www.youtube.com/@AurelienSama",
         "langFlag": "be",
-        "url": "https://www.youtube.com/watch?v=vIfpJdA8QyY"
+        "url": "TBD"
       }
     ]
   }

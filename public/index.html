@@ -147,21 +147,26 @@
             launch.links.forEach((link) => {
               const launchLinkPar = document.createElement("li");
 
-              const launchTitle = document.createElement("span");
-              launchTitle.textContent = link.title;
-              launchLinkPar.appendChild(launchTitle);
+              const launchLinkTitle = document.createElement("span");
+              launchLinkTitle.textContent = link.title + " de ";
+              launchLinkPar.appendChild(launchLinkTitle);
 
-              const launchFlag = document.createElement("span");
-              launchFlag.classList.add("flag");
-              launchFlag.textContent = getFlag(link.langFlag);
-              launchLinkPar.appendChild(launchFlag);
+              const launchLinkFrom = document.createElement("a");
+              launchLinkFrom.href = link.mainUrl;
+              launchLinkFrom.textContent = link.form;
+              launchLinkPar.appendChild(launchLinkFrom);
+
+              const launchLinkFlag = document.createElement("span");
+              launchLinkFlag.classList.add("flag");
+              launchLinkFlag.textContent = getFlag(link.langFlag);
+              launchLinkPar.appendChild(launchLinkFlag);
 
               launchLinkPar.appendChild(document.createTextNode(": "));
 
-              const launchLink = document.createElement("a");
-              launchLink.href = link.url;
-              launchLink.textContent = link.url;
-              launchLinkPar.appendChild(launchLink);
+              const launchLinkUrl = document.createElement("a");
+              launchLinkUrl.href = link.url;
+              launchLinkUrl.textContent = link.url;
+              launchLinkPar.appendChild(launchLinkUrl);
 
               launchLinks.appendChild(launchLinkPar);
             });
