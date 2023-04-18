@@ -28,7 +28,7 @@
       .launch {
         margin: 2rem;
       }
-      
+
       .launch pre {
         white-space: pre-line;
       }
@@ -109,6 +109,8 @@
         .addEventListener("click", toggleColorScheme);
     </script>
     <script>
+      // <LanguageCode>-<CountryCode> (e.g. fr-FR)
+      let lang = "fr-FR";
       const launchesUrl = "launches.json";
       function getFlag(langFlag) {
         switch (langFlag) {
@@ -142,6 +144,27 @@
             const launchDescription = document.createElement("pre");
             launchDescription.textContent = launch.description;
             launchGroup.appendChild(launchDescription);
+
+            const dateOptions = {
+              weekday: "long",
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              hour: "2-digit",
+              minute: "2-digit",
+              second: "2-digit",
+              timeZoneName: "shortOffset",
+              hour12: false,
+              timeZone: "Europe/Paris"
+            };
+
+            const launchLaunchWindow = document.createElement("p");
+            launchLaunchWindow.textContent =
+              "Fenêtre de lancement du " +
+              new Date(launch.launchWindow.beginUTC).toLocaleString(lang, dateOptions)
+              + " au " +
+              new Date(launch.launchWindow.endUTC).toLocaleString(lang, dateOptions);
+            launchGroup.appendChild(launchLaunchWindow);
 
             const launchLinks = document.createElement("ul");
             launch.links.forEach((link) => {

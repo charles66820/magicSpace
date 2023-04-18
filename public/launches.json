@@ -1,10 +1,10 @@
 [
   {
     "title": "Starship",
-    "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nLe décollage est prévue au plus tôt le 19 avril à 15h00 (heure de Paris).\nGrand chance d'explosion!!!!!",
+    "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
     "launchWindow": {
-      "begin": "",
-      "end": ""
+      "beginUTC": "2023-04-20T13:28:00.000Z",
+      "endUTC": "2023-04-20T14:30:00.000Z"
     },
     "links": [
       {
