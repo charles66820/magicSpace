@@ -147,7 +147,17 @@
         let minutes = Math.abs(currentDateTimeDiff.getUTCMinutes());
         let seconds = Math.abs(currentDateTimeDiff.getUTCSeconds());
 
-        return (isPast ? "+" : "") + year + "y " + month + "m " + day + "d " + hours + ":" + minutes + ":" + seconds;
+        let ret = isPast ? "+" : "";
+        if (year) {
+           ret += `${year}y ${month}m ${day}d `;
+        } else if (month) {
+          ret += `${month}m ${day}d `;
+        } else if (day) {
+          ret += `${day}d `;
+        }
+
+        ret += `${hours}:${minutes}:${seconds}`;
+        return ret;
       }
       fetch(launchesUrl, {cache: "reload"})
         .then(async res => {
