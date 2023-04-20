@@ -31,3 +31,43 @@
     ]
   }
 ]
+/*
+"_comment": {
+    "title": "",
+    "description": "",
+    "launchWindow": {
+      "beginUTC": "2000-01-01T00:00:00.000Z",
+      "endUTC": "2000-01-01T00:00:00.000Z"
+    },
+    "links": [
+      {
+        "title": "Le direct officiel",
+        "form": "SpaceX",
+        "mainUrl": "https://www.youtube.com/@SpaceX",
+        "langFlag": "en",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct avec explications techniques",
+        "form": "Techniques Spatiales",
+        "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+        "langFlag": "fr",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct commentais en français",
+        "form": "Stardust",
+        "mainUrl": "https://www.youtube.com/@StardustYT",
+        "langFlag": "fr",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct commentais en français",
+        "form": "Aurelien Sama",
+        "mainUrl": "https://www.youtube.com/@AurelienSama",
+        "langFlag": "be",
+        "url": "TBD"
+      }
+    ]
+  }
+*/
