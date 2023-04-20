@@ -170,7 +170,7 @@
           const data = await res.json();
 
           const launchesContainer = document.querySelector("#launches");
-          data.forEach((launch) => {
+          data.launches.forEach((launch) => {
             const launchGroup = document.createElement("div");
             launchGroup.classList.add("launch");
 
