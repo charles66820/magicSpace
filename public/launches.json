@@ -1,38 +1,38 @@
-[
-  {
-    "title": "Starship",
-    "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
-    "launchWindow": {
-      "beginUTC": "2023-04-20T13:28:00.000Z",
-      "endUTC": "2023-04-20T14:30:00.000Z"
-    },
-    "links": [
-      {
-        "title": "Le direct officiel",
-        "form": "SpaceX",
-        "mainUrl": "https://www.youtube.com/@SpaceX",
-        "langFlag": "en",
-        "url": "https://www.youtube.com/watch?v=-1wcilQ58hI"
+{
+  "launches": [
+    {
+      "title": "Starship",
+      "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
+      "launchWindow": {
+        "beginUTC": "2023-04-20T13:28:00.000Z",
+        "endUTC": "2023-04-20T14:30:00.000Z"
       },
-      {
-        "title": "Le direct avec explications techniques",
-        "form": "Techniques Spatiales",
-        "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
-        "langFlag": "fr",
-        "url": "https://www.youtube.com/watch?v=Bvc4M7Z7TlQ"
-      },
-      {
-        "title": "Le direct commentais en français",
-        "form": "Aurelien Sama",
-        "mainUrl": "https://www.youtube.com/@AurelienSama",
-        "langFlag": "be",
-        "url": "TBD"
-      }
-    ]
-  }
-]
-/*
-"_comment": {
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://www.youtube.com/@SpaceX",
+          "langFlag": "en",
+          "url": "https://www.youtube.com/watch?v=-1wcilQ58hI"
+        },
+        {
+          "title": "Le direct avec explications techniques",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=Bvc4M7Z7TlQ"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Aurelien Sama",
+          "mainUrl": "https://www.youtube.com/@AurelienSama",
+          "langFlag": "be",
+          "url": "TBD"
+        }
+      ]
+    }
+  ],
+  "_comment": {
     "title": "",
     "description": "",
     "launchWindow": {
@@ -70,4 +70,4 @@
       }
     ]
   }
-*/
+}
