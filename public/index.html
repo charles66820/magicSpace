@@ -251,10 +251,10 @@
           const data = await res.json();
 
           const launchesContainer = document.querySelector("#launches");
-          writeLaunchesData(launchesContainer, data.launches.filter(launch => isArchive(launch.launchWindow.endUTC)));
+          writeLaunchesData(launchesContainer, data.launches.filter(launch => isArchive(new Date(launch.launchWindow.endUTC))));
 
           const launchesArchiveContainer = document.querySelector("#launchesArchive");
-          writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => !isArchive(launch.launchWindow.endUTC)));
+          writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => !isArchive(new Date(launch.launchWindow.endUTC))));
         })
         .catch((error) => console.error(error));
     </script>
