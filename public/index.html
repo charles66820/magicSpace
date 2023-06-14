@@ -28,12 +28,15 @@
         margin: 0;
       }
 
+      #launches {
+        margin-top: 2rem;
+      }
+
       .launches {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-top: 2rem;
       }
 
       .launch {
@@ -72,6 +75,7 @@
       }
     </style>
   </head>
+
   <body>
     <h1>Lancements spatiaux</h1>
     <button id="toggleColorScheme">toggle</button>
@@ -152,7 +156,7 @@
 
         let ret = isPast ? "+" : "";
         if (year) {
-           ret += `${year}y ${month}m ${day}d `;
+          ret += `${year}y ${month}m ${day}d `;
         } else if (month) {
           ret += `${month}m ${day}d `;
         } else if (day) {
@@ -167,80 +171,80 @@
         const epsilon2DayTime = 180000000;
         return (currentDate.getTime() - date.getTime()) > epsilon2DayTime;
       }
-        function writeLaunchesData(launchesContainer, launches) {
-          launches.forEach((launch) => {
-            const launchGroup = document.createElement("div");
-            launchGroup.classList.add("launch");
+      function writeLaunchesData(launchesContainer, launches) {
+        launches.forEach((launch) => {
+          const launchGroup = document.createElement("div");
+          launchGroup.classList.add("launch");
 
-            const launchGroupTitle = document.createElement("h2");
-            launchGroupTitle.textContent = launch.title;
-            launchGroup.appendChild(launchGroupTitle);
+          const launchGroupTitle = document.createElement("h2");
+          launchGroupTitle.textContent = launch.title;
+          launchGroup.appendChild(launchGroupTitle);
 
-            const launchGroupTime = document.createElement("h3");
+          const launchGroupTime = document.createElement("h3");
+          launchGroupTime.textContent = dateTimeDiff(new Date(), new Date(launch.launchWindow.beginUTC));
+          setInterval(() => {
             launchGroupTime.textContent = dateTimeDiff(new Date(), new Date(launch.launchWindow.beginUTC));
-            setInterval(() => {
-              launchGroupTime.textContent = dateTimeDiff(new Date(), new Date(launch.launchWindow.beginUTC));
-            }, 10);
-            launchGroup.appendChild(launchGroupTime);
+          }, 10);
+          launchGroup.appendChild(launchGroupTime);
 
-            const launchDescription = document.createElement("pre");
-            launchDescription.textContent = launch.description;
-            launchGroup.appendChild(launchDescription);
+          const launchDescription = document.createElement("pre");
+          launchDescription.textContent = launch.description;
+          launchGroup.appendChild(launchDescription);
 
-            const dateOptions = {
-              weekday: "long",
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-              hour: "2-digit",
-              minute: "2-digit",
-              second: "2-digit",
-              timeZoneName: "shortOffset",
-              hour12: false,
-              timeZone: "Europe/Paris"
-            };
+          const dateOptions = {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            timeZoneName: "shortOffset",
+            hour12: false,
+            timeZone: "Europe/Paris"
+          };
 
-            const launchLaunchWindow = document.createElement("p");
-            launchLaunchWindow.textContent =
-              "Fenêtre de lancement du " +
-              new Date(launch.launchWindow.beginUTC).toLocaleString(lang, dateOptions)
-              + " au " +
-              new Date(launch.launchWindow.endUTC).toLocaleString(lang, dateOptions);
-            launchGroup.appendChild(launchLaunchWindow);
+          const launchLaunchWindow = document.createElement("p");
+          launchLaunchWindow.textContent =
+            "Fenêtre de lancement du " +
+            new Date(launch.launchWindow.beginUTC).toLocaleString(lang, dateOptions)
+            + " au " +
+            new Date(launch.launchWindow.endUTC).toLocaleString(lang, dateOptions);
+          launchGroup.appendChild(launchLaunchWindow);
 
-            const launchLinks = document.createElement("ul");
-            launch.links.forEach((link) => {
-              const launchLinkPar = document.createElement("li");
+          const launchLinks = document.createElement("ul");
+          launch.links.forEach((link) => {
+            const launchLinkPar = document.createElement("li");
 
-              const launchLinkTitle = document.createElement("span");
-              launchLinkTitle.textContent = link.title + " de ";
-              launchLinkPar.appendChild(launchLinkTitle);
+            const launchLinkTitle = document.createElement("span");
+            launchLinkTitle.textContent = link.title + " de ";
+            launchLinkPar.appendChild(launchLinkTitle);
 
-              const launchLinkFrom = document.createElement("a");
-              launchLinkFrom.href = link.mainUrl;
-              launchLinkFrom.textContent = link.form;
-              launchLinkPar.appendChild(launchLinkFrom);
+            const launchLinkFrom = document.createElement("a");
+            launchLinkFrom.href = link.mainUrl;
+            launchLinkFrom.textContent = link.form;
+            launchLinkPar.appendChild(launchLinkFrom);
 
-              const launchLinkFlag = document.createElement("span");
-              launchLinkFlag.classList.add("flag");
-              launchLinkFlag.textContent = getFlag(link.langFlag);
-              launchLinkPar.appendChild(launchLinkFlag);
+            const launchLinkFlag = document.createElement("span");
+            launchLinkFlag.classList.add("flag");
+            launchLinkFlag.textContent = getFlag(link.langFlag);
+            launchLinkPar.appendChild(launchLinkFlag);
 
-              launchLinkPar.appendChild(document.createTextNode(": "));
+            launchLinkPar.appendChild(document.createTextNode(": "));
 
-              const launchLinkUrl = document.createElement("a");
-              launchLinkUrl.href = link.url;
-              launchLinkUrl.textContent = link.url;
-              launchLinkPar.appendChild(launchLinkUrl);
+            const launchLinkUrl = document.createElement("a");
+            launchLinkUrl.href = link.url;
+            launchLinkUrl.textContent = link.url;
+            launchLinkPar.appendChild(launchLinkUrl);
 
-              launchLinks.appendChild(launchLinkPar);
-            });
-            launchGroup.appendChild(launchLinks);
-
-            launchesContainer.appendChild(launchGroup);
+            launchLinks.appendChild(launchLinkPar);
           });
-        }
-      fetch(launchesUrl, {cache: "reload"})
+          launchGroup.appendChild(launchLinks);
+
+          launchesContainer.appendChild(launchGroup);
+        });
+      }
+      fetch(launchesUrl, { cache: "reload" })
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
           const lastModifiedDateTime = new Date(lastModifiedHeader);
