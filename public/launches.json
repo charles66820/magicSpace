@@ -1,6 +1,44 @@
 {
   "launches": [
     {
+      "title": "Dernier vol d'Ariane 5",
+      "description": "Dernier lancement de la fusée européenne Ariane 5. VA-261.",
+      "launchWindow": {
+        "beginUTC": "2023-06-16T21:26.000Z",
+        "endUTC": "2023-06-16T23:01.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "CNES (Centre National d'Études Spatiales)",
+          "mainUrl": "https://www.youtube.com/@CnesFrance",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=KyNTY02Z4Cs"
+        },
+        {
+          "title": "Le direct officiel en anglais",
+          "form": "ESA (European Space Agency)",
+          "mainUrl": "https://www.esa.int/",
+          "langFlag": "en",
+          "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV/(offset)/2"
+        },
+        {
+          "title": "Le direct avec explications techniques",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "TBD"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Stardust",
+          "mainUrl": "https://www.youtube.com/@StardustYT",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=9JRl-3mN4eo"
+        }
+      ]
+    },
+    {
       "title": "Starship",
       "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
       "launchWindow": {
@@ -44,6 +82,27 @@
         "title": "Le direct officiel",
         "form": "SpaceX",
         "mainUrl": "https://www.youtube.com/@SpaceX",
+        "langFlag": "en",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct officiel",
+        "form": "NASA",
+        "mainUrl": "https://www.youtube.com/@NASA",
+        "langFlag": "en",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct officiel",
+        "form": "CNES (Centre National d'Études Spatiales)",
+        "mainUrl": "https://www.youtube.com/@CnesFrance",
+        "langFlag": "fr",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct officiel en anglais",
+        "form": "ESA (European Space Agency)",
+        "mainUrl": "https://www.esa.int/",
         "langFlag": "en",
         "url": "TBD"
       },

@@ -77,6 +77,8 @@
     <button id="toggleColorScheme">toggle</button>
     <div id="lastUpdate"></div>
     <div id="launches"></div>
+    <h2>Archive</h2>
+    <div id="launchesArchive"></div>
     <script>
       function toggleColorScheme(event) {
         let cs = getComputedStyle(
@@ -123,6 +125,7 @@
       // <LanguageCode>-<CountryCode> (e.g. fr-FR)
       let lang = "fr-FR";
       const launchesUrl = "launches.json";
+
       function getFlag(langFlag) {
         switch (langFlag) {
           case "fr":
@@ -159,18 +162,13 @@
         ret += `${hours}:${minutes}:${seconds}`;
         return ret;
       }
-      fetch(launchesUrl, {cache: "reload"})
-        .then(async res => {
-          const lastModifiedHeader = res.headers.get("last-modified");
-          const lastModifiedDateTime = new Date(lastModifiedHeader);
-          const lastUpdateElement = document.querySelector("#lastUpdate");
-          const lastModified = `Dernière modification : ${lastModifiedDateTime.toLocaleDateString()} ${lastModifiedDateTime.toLocaleTimeString()}`;
-          lastUpdateElement.textContent = lastModified;
-
-          const data = await res.json();
-
-          const launchesContainer = document.querySelector("#launches");
-          data.launches.forEach((launch) => {
+      function isArchive(date) {
+        const currentDate = new Date();
+        const epsilon2DayTime = 180000000;
+        return (currentDate.getTime() - date.getTime()) > epsilon2DayTime;
+      }
+        function writeLaunchesData(launchesContainer, launches) {
+          launches.forEach((launch) => {
             const launchGroup = document.createElement("div");
             launchGroup.classList.add("launch");
 
@@ -241,6 +239,22 @@
 
             launchesContainer.appendChild(launchGroup);
           });
+        }
+      fetch(launchesUrl, {cache: "reload"})
+        .then(async res => {
+          const lastModifiedHeader = res.headers.get("last-modified");
+          const lastModifiedDateTime = new Date(lastModifiedHeader);
+          const lastUpdateElement = document.querySelector("#lastUpdate");
+          const lastModified = `Dernière modification : ${lastModifiedDateTime.toLocaleDateString()} ${lastModifiedDateTime.toLocaleTimeString()}`;
+          lastUpdateElement.textContent = lastModified;
+
+          const data = await res.json();
+
+          const launchesContainer = document.querySelector("#launches");
+          writeLaunchesData(launchesContainer, data.launches.filter(launch => isArchive(launch.launchWindow.endUTC)));
+
+          const launchesArchiveContainer = document.querySelector("#launchesArchive");
+          writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => !isArchive(launch.launchWindow.endUTC)));
         })
         .catch((error) => console.error(error));
     </script>
