@@ -28,7 +28,7 @@
         margin: 0;
       }
 
-      #launches {
+      .launches {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -76,9 +76,9 @@
     <h1>Lancements spatiaux</h1>
     <button id="toggleColorScheme">toggle</button>
     <div id="lastUpdate"></div>
-    <div id="launches"></div>
-    <h2>Archive</h2>
-    <div id="launchesArchive"></div>
+    <div id="launches" class="launches"></div>
+    <h1>Archives :</h1>
+    <div id="launchesArchive" class="launches"></div>
     <script>
       function toggleColorScheme(event) {
         let cs = getComputedStyle(
@@ -251,10 +251,10 @@
           const data = await res.json();
 
           const launchesContainer = document.querySelector("#launches");
-          writeLaunchesData(launchesContainer, data.launches.filter(launch => isArchive(new Date(launch.launchWindow.endUTC))));
+          writeLaunchesData(launchesContainer, data.launches.filter(launch => !isArchive(new Date(launch.launchWindow.endUTC))));
 
           const launchesArchiveContainer = document.querySelector("#launchesArchive");
-          writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => !isArchive(new Date(launch.launchWindow.endUTC))));
+          writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => isArchive(new Date(launch.launchWindow.endUTC))));
         })
         .catch((error) => console.error(error));
     </script>
