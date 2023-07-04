@@ -5,8 +5,8 @@
       "description": "Dernier lancement de la fusée européenne Ariane 5. VA-261.",
       "url": "https://ariane5.cnes.fr/fr/direct-dernier-lancement-dariane-5-va261",
       "launchWindow": {
-        "beginUTC": "2023-07-04T23:30:00.000Z",
-        "endUTC": "2023-08-04T01:05:00.000Z"
+        "beginUTC": "2023-07-04T21:30:00.000Z",
+        "endUTC": "2023-07-04T23:05:00.000Z"
       },
       "links": [
         {
