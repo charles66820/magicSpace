@@ -69,6 +69,37 @@
           "url": "https://www.youtube.com/watch?v=7_6VL79ta4M"
         }
       ]
+    },
+    {
+      "title": "Starship 2",
+      "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠️L'heurs n'est pas encore fixer⚠︎.",
+      "launchWindow": {
+        "beginUTC": "2023-11-13T12:00:00.000Z",
+        "endUTC": "2023-11-15T12:00:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://www.youtube.com/@SpaceX",
+          "langFlag": "en",
+          "url": "TBD"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=qI4cKoSD-Jg"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Aurelien Sama",
+          "mainUrl": "https://www.youtube.com/@AurelienSama",
+          "langFlag": "be",
+          "url": "TBD"
+        }
+      ]
     }
   ],
   "_comment": {
