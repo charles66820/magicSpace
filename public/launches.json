@@ -83,7 +83,7 @@
           "form": "SpaceX",
           "mainUrl": "https://www.youtube.com/@SpaceX",
           "langFlag": "en",
-          "url": "TBD"
+          "url": "https://twitter.com/i/broadcasts/1djGXNjyjWoxZ"
         },
         {
           "title": "Le direct avec explications techniques en français",
@@ -91,13 +91,6 @@
           "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
           "langFlag": "fr",
           "url": "https://www.youtube.com/watch?v=qI4cKoSD-Jg"
-        },
-        {
-          "title": "Le direct commentais en français",
-          "form": "Aurelien Sama",
-          "mainUrl": "https://www.youtube.com/@AurelienSama",
-          "langFlag": "be",
-          "url": "TBD"
         }
       ]
     }
