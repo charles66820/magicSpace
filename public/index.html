@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Page de lancements spatiaux" />
+
+    <meta name="twitter:card" content="summary_large_image">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="color-scheme" content="light dark" />
+
     <title>Lancements spatiaux</title>
     <style>
       body {
@@ -244,6 +248,32 @@
           launchesContainer.appendChild(launchGroup);
         });
       }
+      function setMeta(launch) {
+        const ogTitle = document.createElement("meta");
+        ogTitle.setAttribute("property", "og:title");
+        ogTitle.content = launch.title + " dans " + dateTimeDiff(new Date(), new Date(launch.launchWindow.beginUTC));
+        document.getElementsByTagName("head")[0].appendChild(ogTitle);
+
+        const ogType = document.createElement("meta");
+        ogType.setAttribute("property", "og:type");
+        ogType.content = "website";
+        document.getElementsByTagName("head")[0].appendChild(ogType);
+
+        const ogDescription = document.createElement("meta");
+        ogDescription.setAttribute("property", "og:description");
+        ogDescription.content = launch.description;
+        document.getElementsByTagName("head")[0].appendChild(ogDescription);
+
+        const ogUrl = document.createElement("meta");
+        ogUrl.setAttribute("property", "og:url");
+        ogUrl.content = "https://space.magicorp.fr/";
+        document.getElementsByTagName("head")[0].appendChild(ogUrl);
+
+        // const ogImage = document.createElement("meta");
+        // ogImage.setAttribute("property", "og:image");
+        // ogImage.content = "https://space.magicorp.fr/thumb.png";
+        // document.getElementsByTagName("head")[0].appendChild(ogImage);
+      }
       fetch(launchesUrl, { cache: "reload" })
         .then(async res => {
           const lastModifiedHeader = res.headers.get("last-modified");
@@ -255,7 +285,9 @@
           const data = await res.json();
 
           const launchesContainer = document.querySelector("#launches");
-          writeLaunchesData(launchesContainer, data.launches.filter(launch => !isArchive(new Date(launch.launchWindow.endUTC))));
+          let futurLaunches = data.launches.filter(launch => !isArchive(new Date(launch.launchWindow.endUTC)));
+          if (futurLaunches.length > 0) setMeta(futurLaunches[0]);
+          writeLaunchesData(launchesContainer, futurLaunches);
 
           const launchesArchiveContainer = document.querySelector("#launchesArchive");
           writeLaunchesData(launchesArchiveContainer, data.launches.filter(launch => isArchive(new Date(launch.launchWindow.endUTC))));
