@@ -72,10 +72,10 @@
     },
     {
       "title": "Starship 2",
-      "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠️L'heurs n'est pas encore fixer⚠︎.",
+      "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠︎La date et l'heurs peut fortement varier⚠︎.",
       "launchWindow": {
-        "beginUTC": "2023-11-13T12:00:00.000Z",
-        "endUTC": "2023-11-15T12:00:00.000Z"
+        "beginUTC": "2023-11-17T11:00:00.000Z",
+        "endUTC": "2023-11-17T16:00:00.000Z"
       },
       "links": [
         {
