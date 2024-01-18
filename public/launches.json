@@ -74,8 +74,8 @@
       "title": "Starship 2",
       "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠︎La date et l'heurs peut varier⚠︎.",
       "launchWindow": {
-        "beginUTC": "2023-11-18T13:29:00.000Z",
-        "endUTC": "2023-11-18T16:29:00.000Z"
+        "beginUTC": "2023-11-18T13:00:00.000Z",
+        "endUTC": "2023-11-18T13:20:00.000Z"
       },
       "links": [
         {
@@ -83,7 +83,7 @@
           "form": "SpaceX",
           "mainUrl": "https://www.youtube.com/@SpaceX",
           "langFlag": "en",
-          "url": "https://twitter.com/i/broadcasts/1djGXNjyjWoxZ"
+          "url": "https://twitter.com/SpaceX/status/1725637151176659003"
         },
         {
           "title": "Le direct avec explications techniques en français",
