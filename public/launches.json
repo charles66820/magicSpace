@@ -118,6 +118,30 @@
           "url": "https://www.youtube.com/watch?v=qI4cKoSD-Jg"
         }
       ]
+    },
+    {
+      "title": "Starship 3 (IFT3)",
+      "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion\n⚠︎La date et l'heurs peut varier⚠︎.",
+      "launchWindow": {
+        "beginUTC": "2024-03-14T12:00:00.000Z",
+        "endUTC": "2024-03-14T16:00:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://x.com/SpaceX",
+          "langFlag": "en",
+          "url": "TBD"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "TBD"
+        }
+      ]
     }
   ],
   "_comment": {
@@ -132,6 +156,13 @@
         "title": "Le direct officiel",
         "form": "Axiom Space",
         "mainUrl": "https://www.youtube.com/@AxiomSpace",
+        "langFlag": "en",
+        "url": "TBD"
+      },
+      {
+        "title": "Le direct officiel",
+        "form": "SpaceX",
+        "mainUrl": "https://x.com/SpaceX",
         "langFlag": "en",
         "url": "TBD"
       },
