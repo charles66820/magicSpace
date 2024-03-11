@@ -120,11 +120,11 @@
       ]
     },
     {
-      "title": "Starship 3 (IFT3)",
+      "title": "Starship 3 (FT3)",
       "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion\n⚠︎La date et l'heurs peut varier⚠︎.",
       "launchWindow": {
         "beginUTC": "2024-03-14T12:00:00.000Z",
-        "endUTC": "2024-03-14T16:00:00.000Z"
+        "endUTC": "2024-03-14T14:31:00.000Z"
       },
       "links": [
         {
