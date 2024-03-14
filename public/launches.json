@@ -2,7 +2,7 @@
   "launches": [
     {
       "title": "Mission Axiom 3",
-      "description": "Première mission spatiale habitée privée avec uniquement des astronautes européens. Sauf un qui est aussi américain. La fusée c'est la Falcon 9 de SpaceX et l'entreprise Axiom, les 2 sont américaines.",
+      "description": "Première mission spatiale habitée privée avec uniquement des astronautes européens.\nSauf un qui est aussi américain.\nLa fusée c'est la Falcon 9 de SpaceX et l'entreprise Axiom, les 2 sont américaines.",
       "url": "https://ariane5.cnes.fr/fr/direct-dernier-lancement-dariane-5-va261",
       "launchWindow": {
         "beginUTC": "2024-01-18T21:49:00.000Z",
@@ -121,10 +121,10 @@
     },
     {
       "title": "Starship 3 (OFT3)",
-      "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion\n⚠︎La date et l'heurs peut varier⚠︎.",
+      "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion",
       "launchWindow": {
         "beginUTC": "2024-03-14T12:00:00.000Z",
-        "endUTC": "2024-03-14T14:31:00.000Z"
+        "endUTC": "2024-03-14T13:50:00.000Z"
       },
       "links": [
         {
@@ -132,7 +132,7 @@
           "form": "SpaceX",
           "mainUrl": "https://x.com/SpaceX",
           "langFlag": "en",
-          "url": "TBD: C'est twitter / X amuser vous bien pour trouver ce pu** de lien"
+          "url": "https://twitter.com/i/broadcasts/1LyxBnOvzvOxN"
         },
         {
           "title": "Le direct avec explications techniques en français",
