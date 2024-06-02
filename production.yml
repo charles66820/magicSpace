@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  magicspace:
+    restart: always
+    labels:
+      - traefik.http.routers.magicspace.middlewares=https-redirectscheme
+      - traefik.http.routers.magicspace-secure.rule=Host(`space.magicorp.fr`)
+      - traefik.http.routers.magicspace-secure.tls=true
+      - traefik.http.routers.magicspace-secure.tls.certresolver=sslresolver

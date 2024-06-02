@@ -1,0 +1,34 @@
+{
+  "name": "magic_space",
+  "version": "1.0.0",
+  "private": "true",
+  "browserslist": "> 0.05%, last 2 versions, not dead",
+  "context": "browser",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack build",
+    "build:dev": "webpack build --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rf dist/*",
+    "prebuild:dev": "rm -rf dist/*"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "css-loader": "^6.11.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "glob": "^9.3.5",
+    "html-webpack-plugin": "^5.6.0",
+    "lightningcss": "^1.24.1",
+    "mini-css-extract-plugin": "^2.8.1",
+    "purgecss-webpack-plugin": "^5.0.0",
+    "sass": "^1.74.1",
+    "sass-loader": "^13.3.3",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
