@@ -36,9 +36,8 @@ const formattedTime =
       }).format(new Date(nextLaunch.launchWindow.beginUTC));
 
 const nextLaunchTitle = nextLaunch
-  ? `${nextLaunch.title}\n
-     Lancement potentiel le ${formattedDate}${
-      formattedTime ? " à " + formattedTime + " heure de Paris" : ""
+  ? `${nextLaunch.title}\nLancement potentiel le ${formattedDate}${
+      formattedTime ? " \nà " + formattedTime + " heure de Paris" : ""
     }.`
   : "Lancements de fusées, vaisseaux spatiaux ou événements spatiaux.";
 const nextLaunchDescription = nextLaunch ? `${nextLaunch.description}` : "";
