@@ -145,10 +145,10 @@
     },
     {
       "title": "Starship 4 (OFT-4)",
-      "description": "Décollage orbital d'un quatrième Starship,\nla plus grande fusée au monde.\nElle est construite par SpaceX.",
+      "description": "Décollage orbital d'un quatrième Starship de SpaceX.\nC'est la plus grande fusée au monde. Elle deviendra entièrement réutilisable à l'avenir.",
       "launchWindow": {
-        "beginUTC": "2024-06-06T00:00:00.000Z",
-        "endUTC": "2024-06-06T00:00:00.000Z"
+        "beginUTC": "2024-06-06T12:00:00.000Z",
+        "endUTC": "2024-06-06T14:00:00.000Z"
       },
       "links": [
         {
@@ -163,7 +163,7 @@
           "form": "Techniques Spatiales",
           "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
           "langFlag": "fr",
-          "url": "N/A"
+          "url": "https://www.youtube.com/watch?v=rwbSOvi34KI"
         }
       ]
     }
