@@ -36,11 +36,12 @@ const formattedTime =
       }).format(new Date(nextLaunch.launchWindow.beginUTC));
 
 const nextLaunchTitle = nextLaunch
-  ? `${nextLaunch.title}\nLancement potentiel le ${formattedDate}${
-      formattedTime ? " \nà " + formattedTime + " heure de Paris" : ""
-    }.`
+  ? `${nextLaunch.title}`
   : "Lancements de fusées, vaisseaux spatiaux ou événements spatiaux.";
-const nextLaunchDescription = nextLaunch ? `${nextLaunch.description}` : "";
+const nextLaunchDescription = nextLaunch
+  ? `Lancement potentiel le ${formattedDate}${
+      formattedTime ? " \nà " + formattedTime + " heure de Paris" : ""
+    }.\n${nextLaunch.description}` : "";
 
 module.exports = {
   mode: "production",
