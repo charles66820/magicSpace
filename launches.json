@@ -147,7 +147,7 @@
       "title": "Starship 4 (OFT-4)",
       "description": "Décollage orbital d'un quatrième Starship de SpaceX.\nC'est la plus grande fusée au monde.\nElle deviendra entièrement réutilisable à l'avenir.",
       "launchWindow": {
-        "beginUTC": "2024-06-06T12:20:00.000Z",
+        "beginUTC": "2024-06-06T12:50:00.000Z",
         "endUTC": "2024-06-06T14:20:00.000Z"
       },
       "links": [
