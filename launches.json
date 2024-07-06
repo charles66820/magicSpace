@@ -166,6 +166,44 @@
           "url": "https://www.youtube.com/watch?v=rwbSOvi34KI"
         }
       ]
+    },
+    {
+      "title": "Premier lancement d'Ariane 6",
+      "description": "Premier lancement de la fusée européenne Ariane 6.",
+      "launchWindow": {
+        "beginUTC": "2024-07-09T17:30:00.000Z",
+        "endUTC": "2024-07-09T20:00:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel en français",
+          "form": "CNES (Centre National d'Études Spatiales)",
+          "mainUrl": "https://www.youtube.com/@CnesFrance",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=B5mDezzc74M"
+        },
+        {
+          "title": "Le direct officiel en anglais",
+          "form": "ESA (European Space Agency)",
+          "mainUrl": "https://www.esa.int/",
+          "langFlag": "en",
+          "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV"
+        },
+        {
+          "title": "Le direct avec explications techniques",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "TBD"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Stardust",
+          "mainUrl": "https://www.youtube.com/@StardustYT",
+          "langFlag": "fr",
+          "url": "TBD"
+        }
+      ]
     }
   ],
   "_comment": {

@@ -40,7 +40,7 @@ const nextLaunchTitle = nextLaunch
   : "Lancements de fusées, vaisseaux spatiaux ou événements spatiaux.";
 const nextLaunchDescription = nextLaunch
   ? `Lancement potentiel le ${formattedDate}${
-        formattedTime ? " à " + formattedTime + " heure de Paris" : ""
+        formattedTime ? " à " + formattedTime + " (heure de Paris)" : ""
     }.\n${nextLaunch.description}` : "";
 
 module.exports = {
