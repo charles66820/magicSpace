@@ -65,7 +65,7 @@
       ]
     },
     {
-      "title": "Starship",
+      "title": "Starship vol 1",
       "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
       "launchWindow": {
         "beginUTC": "2023-04-20T13:28:00.000Z",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "title": "Starship 2",
+      "title": "Starship vol 2",
       "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠︎La date et l'heurs peut varier⚠︎.",
       "launchWindow": {
         "beginUTC": "2023-11-18T13:00:00.000Z",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "title": "Starship 3 (OFT-3)",
+      "title": "Starship vol 3 (OFT-3)",
       "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion",
       "launchWindow": {
         "beginUTC": "2024-03-14T12:00:00.000Z",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "title": "Starship 4 (OFT-4)",
+      "title": "Starship vol 4 (OFT-4)",
       "description": "Décollage orbital d'un quatrième Starship de SpaceX.\nC'est la plus grande fusée au monde.\nElle deviendra entièrement réutilisable à l'avenir.",
       "launchWindow": {
         "beginUTC": "2024-06-06T12:50:00.000Z",
@@ -209,6 +209,68 @@
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
           "url": "https://www.youtube.com/watch?v=MRGid8lylLc"
+        }
+      ]
+    },
+    {
+      "title": "Lancement de la sonde Europa Clipper",
+      "description": "Lancement de la sonde spacial Europa Clipper en direction de la lune de Jupiter d'Europe.\nLa fusé Falcon Heavy de SpaceX sera utiliser.",
+      "launchWindow": {
+        "beginUTC": "2024-10-13T16:12:00.000Z",
+        "endUTC": "2024-10-13T16:12:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "NASA",
+          "mainUrl": "https://www.youtube.com/@NASA",
+          "langFlag": "en",
+          "url": "https://www.youtube.com/watch?v=lQToTWKwtuw"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Stardust",
+          "mainUrl": "https://www.youtube.com/@StardustYT",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/live/1BQ7Nqqs4VI?si=nCFtyHVeEwlmCqoB"
+        }
+      ]
+    },
+    {
+      "title": "Starship vol 5 (OFT-5)",
+      "description": "Décollage orbital d'un cinquième Starship de SpaceX.\nC'est la plus grande fusée au monde.\nRattrapage du booster par la tour de lancement prévue (ça sent l'explosion💥).",
+      "launchWindow": {
+        "beginUTC": "2024-10-13T12:00:00.000Z",
+        "endUTC": "2024-10-13T16:00:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://x.com/SpaceX",
+          "langFlag": "en",
+          "url": "TBD"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/live/9TpnzGQ6_wA?si=sGtdbl_KIwDW9ASQ"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
         }
       ]
     }
