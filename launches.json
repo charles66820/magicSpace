@@ -213,37 +213,6 @@
       ]
     },
     {
-      "title": "Lancement de la sonde Europa Clipper",
-      "description": "Lancement de la sonde spacial Europa Clipper en direction de la lune de Jupiter d'Europe.\nLa fusé Falcon Heavy de SpaceX sera utiliser.",
-      "launchWindow": {
-        "beginUTC": "2024-10-13T16:12:00.000Z",
-        "endUTC": "2024-10-13T16:12:00.000Z"
-      },
-      "links": [
-        {
-          "title": "Le direct officiel",
-          "form": "NASA",
-          "mainUrl": "https://www.youtube.com/@NASA",
-          "langFlag": "en",
-          "url": "https://www.youtube.com/watch?v=lQToTWKwtuw"
-        },
-        {
-          "title": "Le direct commentais en français",
-          "form": "Hugo Lisoir",
-          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
-          "langFlag": "fr",
-          "url": "https://www.twitch.tv/hugolisoir"
-        },
-        {
-          "title": "Le direct commentais en français",
-          "form": "Stardust",
-          "mainUrl": "https://www.youtube.com/@StardustYT",
-          "langFlag": "fr",
-          "url": "https://www.youtube.com/live/1BQ7Nqqs4VI?si=nCFtyHVeEwlmCqoB"
-        }
-      ]
-    },
-    {
       "title": "Starship vol 5 (OFT-5)",
       "description": "Décollage orbital d'un cinquième Starship de SpaceX.\nC'est la plus grande fusée au monde.\nRattrapage du booster par la tour de lancement prévue (ça sent l'explosion💥).",
       "launchWindow": {
@@ -271,6 +240,37 @@
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
           "url": "https://www.twitch.tv/hugolisoir"
+        }
+      ]
+    },
+    {
+      "title": "Lancement de la sonde Europa Clipper",
+      "description": "Lancement de la sonde spacial Europa Clipper en direction de la lune de Jupiter d'Europe.\nLa fusé Falcon Heavy de SpaceX sera utiliser.",
+      "launchWindow": {
+        "beginUTC": "2024-10-13T16:12:00.000Z",
+        "endUTC": "2024-10-13T16:12:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "NASA",
+          "mainUrl": "https://www.youtube.com/@NASA",
+          "langFlag": "en",
+          "url": "https://www.youtube.com/watch?v=lQToTWKwtuw"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Stardust",
+          "mainUrl": "https://www.youtube.com/@StardustYT",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/live/1BQ7Nqqs4VI?si=nCFtyHVeEwlmCqoB"
         }
       ]
     }
