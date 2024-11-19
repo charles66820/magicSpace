@@ -273,6 +273,37 @@
           "url": "https://www.youtube.com/live/1BQ7Nqqs4VI?si=nCFtyHVeEwlmCqoB"
         }
       ]
+    },
+    {
+      "title": "Starship vol 6 (OFT-6)",
+      "description": "Sixième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusé (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tous se passent bien celui-ci sera rattraper par la tour de lancement prévue (faible chance d'explosion💥).\nLa partie supérieure de la fusée (le Starship qui faut environ 50 mètres de haut),\nsurvolera l'Afrique où il fera nuit comme pour nous,\npuis ira faire un amerrissage dans l'océan indien de jour (au petit matin).\nOn devrait tous voire en direct.",
+      "launchWindow": {
+        "beginUTC": "2024-11-19T22:00:00.000Z",
+        "endUTC": "2024-11-19T22:30:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://x.com/SpaceX",
+          "langFlag": "en",
+          "url": "https://x.com/i/broadcasts/1RDGlydZAeOJL"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=URt4z-6zZHo"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
+        }
+      ]
     }
   ],
   "_comment": {
