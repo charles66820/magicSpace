@@ -306,37 +306,6 @@
       ]
     },
     {
-      "title": "Starship vol 7 (OFT-7)",
-      "description": "Septième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusé (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tous se passent bien celui-ci sera rattraper par la tour de lancement prévue (chance d'explosion💥).\nLa partie supérieure de la fusée, le vaisseau Starship V2, est la second version mesure 52 mètres de haut).\nIl effectura un amerrissage dans l'océan indien de jour.\nOn devrait tous voire en direct.\nUn moteur est re-utilisé, il provient du booster du vol 5 (qui est le permer a avoir été rattraper par la tour de lancement)",
-      "launchWindow": {
-        "beginUTC": "2025-01-16T22:00:00.000Z",
-        "endUTC": "2025-01-16T23:00:00.000Z"
-      },
-      "links": [
-        {
-          "title": "Le direct officiel",
-          "form": "SpaceX",
-          "mainUrl": "https://x.com/SpaceX",
-          "langFlag": "en",
-          "url": "https://x.com/i/broadcasts/1OwGWNYrzZVKQ"
-        },
-        {
-          "title": "Le direct avec explications techniques en français",
-          "form": "Techniques Spatiales",
-          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
-          "langFlag": "fr",
-          "url": "https://www.youtube.com/watch?v=_eD3LXEjv64"
-        },
-        {
-          "title": "Le direct commentais en français",
-          "form": "Hugo Lisoir",
-          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
-          "langFlag": "fr",
-          "url": "https://www.twitch.tv/hugolisoir"
-        }
-      ]
-    },
-    {
       "title": "Premier vol de la New Glenn (NG-1)",
       "description": "Premier décollage du lanceur lourd New Glenn de Blue Origin.\nC'est une fusée réutilisable. Le premier étage sera récupéré dès ce premier vol (sauf en cas échec).\nBlue Origin est un concurent direct de SpaceX et est fondé notament par l'ancien patron d'Amazon Jeff Bezos.",
       "launchWindow": {
@@ -371,6 +340,37 @@
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
           "url": "TBD"
+        }
+      ]
+    },
+    {
+      "title": "Starship vol 7 (OFT-7)",
+      "description": "Septième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusé (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tous se passent bien celui-ci sera rattraper par la tour de lancement prévue (chance d'explosion💥).\nLa partie supérieure de la fusée, le vaisseau Starship V2, est la second version mesure 52 mètres de haut).\nIl effectura un amerrissage dans l'océan indien de jour.\nOn devrait tous voire en direct.\nUn moteur est re-utilisé, il provient du booster du vol 5 (qui est le permer a avoir été rattraper par la tour de lancement)",
+      "launchWindow": {
+        "beginUTC": "2025-01-16T22:00:00.000Z",
+        "endUTC": "2025-01-16T23:00:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "SpaceX",
+          "mainUrl": "https://x.com/SpaceX",
+          "langFlag": "en",
+          "url": "https://x.com/i/broadcasts/1OwGWNYrzZVKQ"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=_eD3LXEjv64"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
         }
       ]
     }
