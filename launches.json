@@ -56,7 +56,7 @@
           "url": "TBD"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Stardust",
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
@@ -66,7 +66,7 @@
     },
     {
       "title": "Starship vol 1",
-      "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
+      "description": "Le premier décollage orbital du Starship,\nla plus grande fusée au monde et qui est réutilisable,\nil est construit par SpaceX.\nGrand chance d'explosion!!!!!",
       "launchWindow": {
         "beginUTC": "2023-04-20T13:28:00.000Z",
         "endUTC": "2023-04-20T14:30:00.000Z"
@@ -87,7 +87,7 @@
           "url": "https://www.youtube.com/watch?v=Bvc4M7Z7TlQ"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Aurelien Sama",
           "mainUrl": "https://www.youtube.com/@AurelienSama",
           "langFlag": "be",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Starship vol 2",
-      "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠︎La date et l'heurs peut varier⚠︎.",
+      "description": "Décollage orbital d'un second Starship,\nla plus grande fusée au monde et qui est réutilisable,\nelle est construite par SpaceX.\nGrand chance d'explosion (comme pour le premier vol)!!!!!\n⚠︎La date et l'heure peuvent varier⚠︎.",
       "launchWindow": {
         "beginUTC": "2023-11-18T13:00:00.000Z",
         "endUTC": "2023-11-18T13:20:00.000Z"
@@ -121,7 +121,7 @@
     },
     {
       "title": "Starship vol 3 (OFT-3)",
-      "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion",
+      "description": "Décollage orbital d'un troisième Starship,\nla plus grande fusée au monde et qui est réutilisable,\nelle est construite par SpaceX.\nChance d'explosion",
       "launchWindow": {
         "beginUTC": "2024-03-14T12:00:00.000Z",
         "endUTC": "2024-03-14T13:50:00.000Z"
@@ -197,14 +197,14 @@
           "url": "https://www.esa.int/ESA_Multimedia/ESA_Web_TV"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
           "url": "https://www.twitch.tv/hugolisoir"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Stardust",
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
@@ -235,7 +235,7 @@
           "url": "https://www.youtube.com/live/9TpnzGQ6_wA?si=sGtdbl_KIwDW9ASQ"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
@@ -245,7 +245,7 @@
     },
     {
       "title": "Lancement de la sonde Europa Clipper",
-      "description": "Lancement de la sonde spacial Europa Clipper en direction de la lune de Jupiter d'Europe.\nLa fusé Falcon Heavy de SpaceX sera utiliser.",
+      "description": "Lancement de la sonde spacial Europa Clipper en direction de la lune de Jupiter d'Europe.\nLa fusée Falcon Heavy de SpaceX sera utilisée.",
       "launchWindow": {
         "beginUTC": "2024-10-13T16:12:00.000Z",
         "endUTC": "2024-10-13T16:12:00.000Z"
@@ -259,14 +259,14 @@
           "url": "https://www.youtube.com/watch?v=lQToTWKwtuw"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
           "url": "https://www.twitch.tv/hugolisoir"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Stardust",
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
@@ -276,7 +276,7 @@
     },
     {
       "title": "Starship vol 6 (OFT-6)",
-      "description": "Sixième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusé (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tous se passent bien celui-ci sera rattraper par la tour de lancement prévue (faible chance d'explosion💥).\nLa partie supérieure de la fusée (le Starship qui faut environ 50 mètres de haut),\nsurvolera l'Afrique où il fera nuit comme pour nous,\npuis ira faire un amerrissage dans l'océan indien de jour (au petit matin).\nOn devrait tous voire en direct.",
+      "description": "Sixième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusée (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tout se passe bien celui-ci sera rattrapé par la tour de lancement prévue (faible chance d'explosion💥).\nLa partie supérieure de la fusée (le Starship qui faut environ 50 mètres de haut),\nsurvolera l'Afrique où il fera nuit comme pour nous,\npuis ira faire un amerrissage dans l'océan indien de jour (au petit matin).\nOn devrait tout voir en direct.",
       "launchWindow": {
         "beginUTC": "2024-11-19T22:00:00.000Z",
         "endUTC": "2024-11-19T22:30:00.000Z"
@@ -297,7 +297,7 @@
           "url": "https://www.youtube.com/watch?v=URt4z-6zZHo"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
@@ -307,7 +307,7 @@
     },
     {
       "title": "Premier vol de la New Glenn (NG-1)",
-      "description": "Premier décollage du lanceur lourd New Glenn de Blue Origin.\nC'est une fusée réutilisable. Le premier étage sera récupéré dès ce premier vol (sauf en cas échec).\nBlue Origin est un concurent direct de SpaceX et est fondé notament par l'ancien patron d'Amazon Jeff Bezos.",
+      "description": "Premier décollage du lanceur lourd New Glenn de Blue Origin.\nC'est une fusée réutilisable. Le premier étage sera récupéré dès ce premier vol (sauf en cas d'échec).\nBlue Origin est un concurrent direct de SpaceX et est fondé notamment par l'ancien patron d'Amazon Jeff Bezos.",
       "launchWindow": {
         "beginUTC": "2025-01-16T06:00:00.000Z",
         "endUTC": "2025-01-16T09:00:00.000Z"
@@ -328,14 +328,14 @@
           "url": "https://www.youtube.com/watch?v=xPXjkZ9yfxI"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
           "url": "https://www.twitch.tv/hugolisoir"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Stardust",
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
@@ -345,7 +345,7 @@
     },
     {
       "title": "Starship vol 7 (OFT-7)",
-      "description": "Septième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capable d'effectuer plusieurs vols.\nLa partie inférieure de la fusé (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tous se passent bien celui-ci sera rattraper par la tour de lancement prévue (chance d'explosion💥).\nLa partie supérieure de la fusée, le vaisseau Starship V2, est la second version mesure 52 mètres de haut).\nIl effectura un amerrissage dans l'océan indien de jour.\nOn devrait tous voire en direct.\nUn moteur est re-utilisé, il provient du booster du vol 5 (qui est le permer a avoir été rattraper par la tour de lancement)",
+      "description": "Septième décollage de la plus grande fusée du monde, le Starship de SpaceX.\nC'est une fusée expérimentale qui est composée de 2 parties qui seront capables d'effectuer plusieurs vols.\nLa partie inférieure de la fusée (le booster d'environ 70 mètres de haut) retournera au pas de tir.\nSi tout se passe bien celui-ci sera rattrapé par la tour de lancement prévue (chance d'explosion💥).\nLa partie supérieure de la fusée, le vaisseau Starship V2 (mesure 52 mètres de haut).\nIl effectuera un amerrissage dans l'océan indien de jour.\nOn devrait tout voir en direct.\nUn moteur est re-utilisé, il provient du booster du vol 5 (qui est le premier a avoir été rattraper par la tour de lancement)",
       "launchWindow": {
         "beginUTC": "2025-01-16T22:00:00.000Z",
         "endUTC": "2025-01-16T23:00:00.000Z"
@@ -366,7 +366,7 @@
           "url": "https://www.youtube.com/watch?v=_eD3LXEjv64"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
@@ -390,7 +390,7 @@
           "url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo"
         },
         {
-          "title": "Le direct, sans coupure du lancement au retour, commentais en français",
+          "title": "Le direct, sans coupure du lancement au retour, commenté en français",
           "form": "Stardust",
           "mainUrl": "https://www.youtube.com/@StardustYT",
           "langFlag": "fr",
@@ -404,7 +404,7 @@
           "url": "https://www.youtube.com/watch?v=ntn3yDizlHc"
         },
         {
-          "title": "Le direct commentais en français",
+          "title": "Le direct commenté en français",
           "form": "Hugo Lisoir",
           "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
           "langFlag": "fr",
@@ -485,21 +485,21 @@
         "url": "TBD"
       },
       {
-        "title": "Le direct commentais en français",
+        "title": "Le direct commenté en français",
         "form": "Stardust",
         "mainUrl": "https://www.youtube.com/@StardustYT",
         "langFlag": "fr",
         "url": "TBD"
       },
       {
-        "title": "Le direct commentais en français",
+        "title": "Le direct commenté en français",
         "form": "Aurelien Sama",
         "mainUrl": "https://www.youtube.com/@AurelienSama",
         "langFlag": "be",
         "url": "TBD"
       },
       {
-        "title": "Le direct commentais en français",
+        "title": "Le direct commenté en français",
         "form": "Hugo Lisoir",
         "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
         "langFlag": "fr",
