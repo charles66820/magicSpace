@@ -373,6 +373,44 @@
           "url": "https://www.twitch.tv/hugolisoir"
         }
       ]
+    },
+    {
+      "title": "Artémis 2",
+      "description": "Décollage de la mission lunaire Artémis 2.\nC'est le retour de l'humanité autour de la Lune, avec trois astronautes états-Unien (dont une femme) et un Canadien.\nIl s'agit du premier vol habité vers la Lune depuis 54 ans, et du vol habité le plus éloigné de la Terre jamais réalisé à ce jour.",
+      "launchWindow": {
+        "beginUTC": "2026-04-01T22:24:00.000Z",
+        "endUTC": "2026-04-01T22:54:00.000Z"
+      },
+      "links": [
+        {
+          "title": "Le direct officiel",
+          "form": "NASA",
+          "mainUrl": "https://www.youtube.com/@NASA",
+          "langFlag": "en",
+          "url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo"
+        },
+        {
+          "title": "Le direct, sans coupure du lancement au retour, commentais en français",
+          "form": "Stardust",
+          "mainUrl": "https://www.youtube.com/@StardustYT",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=lkDS71HT-ms"
+        },
+        {
+          "title": "Le direct avec explications techniques en français",
+          "form": "Techniques Spatiales",
+          "mainUrl": "https://www.youtube.com/@TechniquesSpatiales",
+          "langFlag": "fr",
+          "url": "https://www.youtube.com/watch?v=ntn3yDizlHc"
+        },
+        {
+          "title": "Le direct commentais en français",
+          "form": "Hugo Lisoir",
+          "mainUrl": "https://www.youtube.com/@hugolisoiryoutube",
+          "langFlag": "fr",
+          "url": "https://www.twitch.tv/hugolisoir"
+        }
+      ]
     }
   ],
   "_comment": {
